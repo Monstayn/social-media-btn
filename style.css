@@ -13,7 +13,6 @@ body{
     justify-content: center;
     align-items: center;
     height: 100px;
-    /* background-color: tomato; */
     color:  #cf7500;
     letter-spacing: 10px;
     font-family: 'Squada One', cursive;
@@ -22,7 +21,6 @@ body{
 .mid-content{
     width: 400px;
     height: 300px;
-    /* background-color: tomato; */
     position: absolute;
     top: 50%;
     left: 50%;
@@ -33,9 +31,12 @@ body{
 .social-cont{
     width: 400px;
     height: 50px;
-    /* background-color: teal ; */
     display: flex;
     justify-content: space-between;
+}
+
+.social-cont a{
+    color: black;
 }
 
 .line-1{
@@ -79,7 +80,6 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    /* background-color: tomato; */
     font-family: 'Montserrat', sans-serif;
     color: #cf7500;
     font-size: 12px;
